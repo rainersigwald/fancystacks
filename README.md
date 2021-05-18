@@ -25,3 +25,7 @@ Got an interesting stack in Visual Studio that you'd like to share? Prettify and
 * [`Microsoft.Build.dll!Microsoft.Build.BackEnd.TargetEntry.ProcessBucket(taskBuilder, targetLoggingContext, mode, lookupForInference, lookupForExecution) Line 816`](https://github.com/dotnet/msbuild/blob/4242f381a90f77f483b123819759db1ff8eddf67/src/Build/BackEnd/Components/RequestBuilder/TargetEntry.cs#L816)
 * [`Microsoft.Build.dll!Microsoft.Build.BackEnd.TargetEntry.ExecuteTarget(taskBuilder, requestEntry, projectLoggingContext, cancellationToken) Line 499`](https://github.com/dotnet/msbuild/blob/4242f381a90f77f483b123819759db1ff8eddf67/src/Build/BackEnd/Components/RequestBuilder/TargetEntry.cs#L499)
 * [`Microsoft.Build.dll!Microsoft.Build.BackEnd.TargetBuilder.ProcessTargetStack(taskBuilder) Line 486`](https://github.com/dotnet/msbuild/blob/4242f381a90f77f483b123819759db1ff8eddf67/src/Build/BackEnd/Components/RequestBuilder/TargetBuilder.cs#L486)
+
+## How to use
+
+In the Visual Studio debugger, select the stack frames of interest, then "Copy with source paths".
