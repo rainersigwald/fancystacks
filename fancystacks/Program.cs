@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Text;
 
 namespace fancystacks
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -13,6 +14,13 @@ namespace fancystacks
             // transform into markdown
 
             // copy to clipboard
+        }
+
+        public static string Markdownify(string stack, string baseUri)
+        {
+            StringBuilder o = new();
+
+            return o.ToString();
         }
     }
 }
