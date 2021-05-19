@@ -2,6 +2,8 @@
 
 Take a stack from the VS debugger and make it into linkified markdown.
 
+[![.NET](https://github.com/rainersigwald/fancystacks/actions/workflows/dotnet.yml/badge.svg)](https://github.com/rainersigwald/fancystacks/actions/workflows/dotnet.yml)
+
 Got an interesting stack in Visual Studio that you'd like to share? Prettify and linkify it into something like this:
 
 * [`Microsoft.Build.dll!Microsoft.Build.Shared.TypeLoader.LoadAssembly(assemblyLoadInfo) Line 162`](https://github.com/dotnet/msbuild/blob/4242f381a90f77f483b123819759db1ff8eddf67/src/Shared/TypeLoader.cs#L162)
